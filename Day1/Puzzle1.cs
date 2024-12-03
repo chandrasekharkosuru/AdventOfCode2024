@@ -21,6 +21,7 @@ namespace AdventOfCode2024.Day1
                 int lastIteration = 0;
                 foreach (var leftPair in firstPiar)
                 {
+
                     for (int i = lastIteration; i <= secondPiar.Count; i++)
                     {
                         distanceValue += ((int)(secondPiar[i] - leftPair));
